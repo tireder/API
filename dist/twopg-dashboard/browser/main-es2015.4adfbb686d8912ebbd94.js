@@ -42321,7 +42321,7 @@
         $w = (() => {
           class t {
             constructor(t, e) {
-              this.http = t, this.userService = e, this.endpoint = pu.endpoint + "/bots"
+              this.http = t, this.userService = e, this.endpoint = pu.endpoint + "/servers"
             }
             get bots() {
               return this._bots
@@ -45748,10 +45748,10 @@
           class t {
             constructor(t, e) {
               this.ngMeta = t, this.ngTitle = e, this.base = {
-                titlePrefix: "Best Discord Bots",
-                titleSuffix: "DBots",
+                titlePrefix: "Best Fivem Servers",
+                titleSuffix: "FIVEM SERVERS",
                 url: "https://fivelist.xyz"
-              }, this.keywords("discord bots, discord bot maker, discord bot commands, discord bot builder, discord bot list"), this.image("https://fivelist.xyz/assets/img/logo.svg")
+              }, this.keywords("FIVEM"), this.image("https://fivelist.xyz/assets/img/logo.svg")
             }
             get metaInstance() {
               return this.ngMeta
@@ -45938,7 +45938,7 @@
           randomBot() {
             var t;
             const e = null === (t = this.botsService.getRandomBot()) || void 0 === t ? void 0 : t.id;
-            this.router.navigate(["/bots/", e])
+            this.router.navigate(["/servers/", e])
           }
         }
         return t.\u0275fac = function (e) {
@@ -45958,7 +45958,7 @@
             [1, "navbar-toggler-icon"],
             ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"],
             [1, "nav", "navbar-nav"],
-            ["routerLink", "/bots", "routerLinkActive", "active", 1, "nav-item", "nav-link"],
+            ["routerLink", "/servers", "routerLinkActive", "active", 1, "nav-item", "nav-link"],
             ["aria-hidden", "true", 1, "fas", "fa-robot", "text-muted", "mr-1"],
             ["routerLinkActive", "active", 1, "nav-item", "nav-link", 3, "click"],
             ["aria-hidden", "true", 1, "fas", "fa-dice", "text-muted", "mr-1"],
@@ -45977,9 +45977,9 @@
             ["routerLink", "/logout", 1, "dropdown-item"]
           ],
           template: function (t, e) {
-            1 & t && (Oo(0, "nav", 0), Oo(1, "a", 1), Ao(2, "img", 2), Eo(), Oo(3, "button", 3), Ao(4, "span", 4), Eo(), Oo(5, "div", 5), Oo(6, "div", 6), Oo(7, "a", 7), Ao(8, "i", 8), ma(9, " Bots "), Eo(), Oo(10, "a", 9), Ho("click", function () {
+            1 & t && (Oo(0, "nav", 0), Oo(1, "a", 1), Ao(2, "img", 2), Eo(), Oo(3, "button", 3), Ao(4, "span", 4), Eo(), Oo(5, "div", 5), Oo(6, "div", 6), Oo(7, "a", 7), Ao(8, "i", 8), ma(9, " Servers "), Eo(), Oo(10, "a", 9), Ho("click", function () {
               return e.randomBot()
-            }), Ao(11, "i", 10), ma(12, " Random Bot "), Eo(), Oo(13, "a", 11), Ao(14, "i", 12), ma(15, " Servers "), Eo(), Eo(), Oo(16, "div", 13), So(17, TS, 4, 0, "div", 14), So(18, OS, 11, 2, "div", 14), Eo(), Eo(), Eo()), 2 & t && (Gr(17), Do("ngIf", !e.user), Gr(1), Do("ngIf", e.user))
+            }), Ao(11, "i", 10), ma(12, " Random Server "), Eo(), Oo(13, "a", 11), Ao(14, "i", 12), ma(15, " Servers "), Eo(), Eo(), Oo(16, "div", 13), So(17, TS, 4, 0, "div", 14), So(18, OS, 11, 2, "div", 14), Eo(), Eo(), Eo()), 2 & t && (Gr(17), Do("ngIf", !e.user), Gr(1), Do("ngIf", e.user))
           },
           directives: [UM, $M, Zu],
           styles: ["[_ngcontent-%COMP%]:root{--navbar-background:transparent}nav.navbar[_ngcontent-%COMP%]{background-color:var(--navbar-background)!important}img[_ngcontent-%COMP%]{max-width:96px}.dropdown[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{max-width:32px;border-radius:50%}.dropdown-menu[_ngcontent-%COMP%]{background:var(--background-secondary)}.dropdown-menu[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{color:#fff}.dropdown-menu[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover{background-color:var(--background-primary)}a[_ngcontent-%COMP%]{cursor:pointer}"]
@@ -49362,19 +49362,19 @@
           }
         },
         uD = function (t) {
-          return ["/bots/", t]
+          return ["/servers/", t]
         };
 
       function dD(t, e) {
         if (1 & t && (Oo(0, "div", 1), Oo(1, "div", 2), Ao(2, "img", 3), Ao(3, "div", 4), Eo(), Oo(4, "div", 5), Oo(5, "p", 6), So(6, aD, 4, 3, "span", 7), Oo(7, "span", 8), Ao(8, "i", 9), ma(9), Wl(10, "number"), Eo(), Eo(), Oo(11, "div", 10), Oo(12, "h4", 11), ma(13), Eo(), Oo(14, "p", 12), ma(15), Eo(), Oo(16, "p", 13), ma(17), Eo(), Eo(), Oo(18, "div", 14), Oo(19, "button", 15), ma(20, "VIEW"), Eo(), Oo(21, "a", 16), Oo(22, "button", 17), ma(23, "ADD"), Eo(), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo();
-          Gr(2), Do("routerLink", Bl(15, lD, "/bots/" + t.user.id))("src", t.user.displayAvatarURL, Qi)("alt", t.user.username + " | " + t.cleanTags), Gr(1), Do("ngClass", (n = 17, i = cD, r = "online" === (null == t.user.presence ? null : t.user.presence.status), s = "dnd" === (null == t.user.presence ? null : t.user.presence.status), o = "idle" === (null == t.user.presence ? null : t.user.presence.status), function (t, e, n, i, r, s, o, a) {
+          Gr(2), Do("routerLink", Bl(15, lD, "/servers/" + t.user.id))("src", t.user.displayAvatarURL, Qi)("alt", t.user.username + " | " + t.cleanTags), Gr(1), Do("ngClass", (n = 17, i = cD, r = "online" === (null == t.user.presence ? null : t.user.presence.status), s = "dnd" === (null == t.user.presence ? null : t.user.presence.status), o = "idle" === (null == t.user.presence ? null : t.user.presence.status), function (t, e, n, i, r, s, o, a) {
             const l = e + n;
             return function (t, e, n, i, r) {
               const s = ko(t, e, n, i);
               return wo(t, e + 2, r) || s
             }(t, l, r, s, o) ? vo(t, l + 3, a ? i.call(a, r, s, o) : i(r, s, o)) : zl(t, l + 3)
-          }(Oe(), Ne(), n, i, r, s, o, a)))("matTooltip", null == t.user.presence ? null : t.user.presence.status), Gr(3), Do("ngIf", null == t.bot.stats ? null : t.bot.stats.guildCount), Gr(3), _a(" ", Ul(10, 13, t.bot.votes.length), " "), Gr(3), Do("routerLink", Bl(21, uD, t.user.id)), Gr(1), ga(t.user.username), Gr(2), ga(t.bot.listing.overview), Gr(2), ga(t.cleanTags), Gr(2), Do("routerLink", Bl(23, lD, "/bots/" + t.user.id)), Gr(2), Do("href", t.bot.listing.invite, Qi)
+          }(Oe(), Ne(), n, i, r, s, o, a)))("matTooltip", null == t.user.presence ? null : t.user.presence.status), Gr(3), Do("ngIf", null == t.bot.stats ? null : t.bot.stats.guildCount), Gr(3), _a(" ", Ul(10, 13, t.bot.votes.length), " "), Gr(3), Do("routerLink", Bl(21, uD, t.user.id)), Gr(1), ga(t.user.username), Gr(2), ga(t.bot.listing.overview), Gr(2), ga(t.cleanTags), Gr(2), Do("routerLink", Bl(23, lD, "/servers/" + t.user.id)), Gr(2), Do("href", t.bot.listing.invite, Qi)
         }
         var n, i, r, s, o, a
       }
@@ -49391,7 +49391,7 @@
               }, this.bot = {
                 listing: {
                   invite: "",
-                  overview: "A good bot I guess...",
+                  overview: "A good server I guess...",
                   tags: ["Economy", "Moderation"]
                 },
                 stats: {
@@ -49417,11 +49417,11 @@
           }, t.\u0275cmp = Ht({
             type: t,
             selectors: [
-              ["bot-card"]
+              ["server-card"]
             ],
             inputs: {
               user: "user",
-              bot: "bot"
+              bot: "server"
             },
             decls: 1,
             vars: 1,
@@ -49480,10 +49480,10 @@
         })();
 
       function fD(t, e) {
-        if (1 & t && (Oo(0, "div", 12), Ao(1, "bot-card", 13), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div", 12), Ao(1, "server-card", 13), Eo()), 2 & t) {
           const t = e.$implicit,
             n = Wo(2);
-          Gr(1), Do("bot", t)("user", n.service.getBot(t._id))
+          Gr(1), Do("server", t)("user", n.service.getBot(t._id))
         }
       }
 
@@ -49508,7 +49508,7 @@
       let _D = (() => {
           class t {
             constructor(t, e, n) {
-              this.service = t, this.location = e, this.packs = n, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated bots this week.", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
+              this.service = t, this.location = e, this.packs = n, this.page = 1, this.size = 8, this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated servers this week.", this.query = "", this.bots = [], this.savedBots = [], this.initialized = !1
             }
             get lastPage() {
               return Math.ceil(this.bots.length / this.size)
@@ -49567,16 +49567,16 @@
               this.savedBots = t.bots, this.bots = this.service.bots.filter(e => t.bots.some(t => t._id === e.id)), this.setPackLayout(t)
             }
             setDefaultLayout() {
-              this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated bots this week.", this.loadTopBots(), this.location.go("")
+              this.title = "Top", this.icon = "fas fa-robot", this.description = "The highest rated servers this week.", this.loadTopBots(), this.location.go("")
             }
             setSearchLayout() {
-              this.title = `Results for '${this.query}'`, this.description = `Find bots similar to '${this.query}'.`, this.icon = "fas fa-search"
+              this.title = `Results for '${this.query}'`, this.description = `Find servers similar to '${this.query}'.`, this.icon = "fas fa-search"
             }
             setTagLayout(t) {
-              this.title = LS(t.name) + " Bots", this.icon = t.icon, this.description = t.description, this.tag = t, this.resetPaginator()
+              this.title = LS(t.name) + " servers", this.icon = t.icon, this.description = t.description, this.tag = t, this.resetPaginator()
             }
             setOwnerLayout(t) {
-              this.title = t.username + " Bots", this.description = `This user has ${this.bots.length} bots on DBots.`
+              this.title = t.username + " servers", this.description = `This user has ${this.bots.length} servers on DBots.`
             }
             setPackLayout(t) {
               this.title = "Pack for " + t.name, this.icon = "fas fa-cube", this.description = t.description
@@ -49596,7 +49596,7 @@
           }, t.\u0275cmp = Ht({
             type: t,
             selectors: [
-              ["bots"]
+              ["servers"]
             ],
             inputs: {
               tag: "tag",
@@ -49619,7 +49619,7 @@
               [1, "cursor-pointer", "m-1", 3, "hidden", "click"],
               ["aria-hidden", "true", 1, "fas", "fa-chevron-right"],
               [1, "col-lg-3", "col-md-4", "col-sm-6", "d-flex", "justify-content-center"],
-              [1, "m-3", 3, "bot", "user"]
+              [1, "m-3", 3, "server", "user"]
             ],
             template: function (t, e) {
               1 & t && (So(0, mD, 16, 8, "div", 0), So(1, gD, 2, 0, "div", 0)), 2 & t && (Do("ngIf", e.initialized), Gr(1), Do("ngIf", !e.initialized))
@@ -49681,7 +49681,7 @@
       function wD(t, e) {
         if (1 & t && (Oo(0, "div", 1), Oo(1, "div", 2), Oo(2, "div", 3), Oo(3, "a", 4), Oo(4, "button", 5), ma(5, "View"), Eo(), Eo(), Oo(6, "span"), Ao(7, "i", 6), ma(8), Eo(), Eo(), Oo(9, "h4"), ma(10, "Pack for "), Oo(11, "a"), ma(12), Eo(), Eo(), Oo(13, "span"), ma(14), Eo(), So(15, bD, 2, 3, "div", 7), Eo(), Eo()), 2 & t) {
           const t = Wo();
-          Gr(3), Do("routerLink", Bl(7, vD, t.pack._id)), Gr(5), _a(" ", t.pack.votes, " Votes"), Gr(3), ea("color", t.randomColor), Gr(1), ga(t.pack.name), Gr(2), _a("", t.pack.bots.length, " Bots"), Gr(1), Do("ngForOf", t.botUsers)
+          Gr(3), Do("routerLink", Bl(7, vD, t.pack._id)), Gr(5), _a(" ", t.pack.votes, " Votes"), Gr(3), ea("color", t.randomColor), Gr(1), ga(t.pack.name), Gr(2), _a("", t.pack.bots.length, " servers"), Gr(1), Do("ngForOf", t.botUsers)
         }
       }
       let kD = (() => {
@@ -49718,8 +49718,8 @@
             [1, "d-block", 3, "routerLink"],
             ["mat-button", "", 1, "rounded-lg"],
             ["aria-hidden", "true", 1, "fas", "fa-chevron-up"],
-            ["class", "bot-avatars mt-3", 4, "ngFor", "ngForOf"],
-            [1, "bot-avatars", "mt-3"],
+            ["class", "server-avatars mt-3", 4, "ngFor", "ngForOf"],
+            [1, "server-avatars", "mt-3"],
             [1, "round", "float-left", 3, "src", "alt", "matTooltip"]
           ],
           template: function (t, e) {
@@ -49758,7 +49758,7 @@
       let CD = (() => {
           class t {
             constructor(t) {
-              this.service = t, this.title = "Bot Packs", this.description = "View a range of preselected bots in specific categories.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
+              this.service = t, this.title = "Server Packs", this.description = "View a range of preselected servers in specific categories.", this.packs = [], this.page = 1, this.size = 8, this.initialized = !1
             }
             get lastPage() {
               return Math.ceil(this.packs.length / this.size)
@@ -49772,7 +49772,7 @@
               this.resetPaginator()
             }
             setOwnerLayout() {
-              this.title = this.ownerUser.username + "'s Bot Packs", this.description = `This user has ${this.packs.length} bot packs.`
+              this.title = this.ownerUser.username + "'s Server Packs", this.description = `This user has ${this.packs.length} Server packs.`
             }
             resetPaginator(t = 1) {
               this.page = t
@@ -49837,7 +49837,7 @@
             pure: !0
           }), t
         })();
-      const DD = ["bots"],
+      const DD = ["servers"],
         TD = ["searchInput"],
         OD = function (t) {
           return ["/tags/", t]
@@ -49851,21 +49851,21 @@
       }
       const AD = function () {
           return {
-            description: "Trending bots with the most votes.",
+            description: "Trending servers with the most votes.",
             icon: "fas fa-chevron-up",
             name: "trending"
           }
         },
         YD = function () {
           return {
-            description: "Featured bots selected by DBots.",
+            description: "Featured servers selected by DBots.",
             icon: "fas fa-star",
             name: "featured"
           }
         };
 
       function PD(t, e) {
-        if (1 & t && (Oo(0, "div"), Ao(1, "packs", 20), Ao(2, "bots", 21), Ao(3, "bots", 22), Oo(4, "h2", 23), Ao(5, "i", 24), ma(6, " Tags"), Eo(), Oo(7, "mat-chip-list"), So(8, ED, 4, 8, "mat-chip", 25), Eo(), Oo(9, "div", 26), Oo(10, "div", 27), Oo(11, "button", 28), ma(12, "View More"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Ao(1, "packs", 20), Ao(2, "servers", 21), Ao(3, "servers", 22), Oo(4, "h2", 23), Ao(5, "i", 24), ma(6, " Tags"), Eo(), Oo(7, "mat-chip-list"), So(8, ED, 4, 8, "mat-chip", 25), Eo(), Oo(9, "div", 26), Oo(10, "div", 27), Oo(11, "button", 28), ma(12, "View More"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo();
           Gr(2), Do("tag", Nl(3, AD)), Gr(1), Do("tag", Nl(4, YD)), Gr(5), Do("ngForOf", t.tagService.tags)
         }
@@ -49891,8 +49891,8 @@
             }
             search(t) {
               return this.location.go("search", "?q=" + t), this.seo.setTags({
-                description: `Find bots similar to '${t}'.`,
-                titlePrefix: t + " Bots",
+                description: `Find servers similar to '${t}'.`,
+                titlePrefix: t + " servers",
                 url: "search/q?=" + t
               }), this.botsComponent.search(t)
             }
@@ -49900,7 +49900,7 @@
               const e = this.tagService.getTag(t);
               this.botsComponent.searchByTag(e), this.seo.setTags({
                 description: e.description,
-                titlePrefix: LS(e.name) + " Bots",
+                titlePrefix: LS(e.name) + " servers",
                 url: "tags/" + e.name
               })
             }
@@ -49939,7 +49939,7 @@
               ["inverted", "true", 3, "color"],
               ["id", "content", 1, "container"],
               ["id", "top"],
-              ["bots", ""],
+              ["servers", ""],
               [4, "ngIf"],
               ["id", "packs"],
               ["id", "trending", 3, "tag"],
@@ -49954,13 +49954,13 @@
               ["aria-hidden", "true", 1, "ml-1"]
             ],
             template: function (t, e) {
-              if (1 & t && (Oo(0, "header"), Ao(1, "navbar"), Oo(2, "div", 0), Oo(3, "div", 1), Oo(4, "h1"), ma(5, "Find the Best Fivem Server"), Eo(), Oo(6, "p", 2), ma(7, "Find bots for your servers quickly and simply."), Eo(), Eo(), Oo(8, "div", 3), Oo(9, "search", 4, 5), Ho("blur", function () {
+              if (1 & t && (Oo(0, "header"), Ao(1, "navbar"), Oo(2, "div", 0), Oo(3, "div", 1), Oo(4, "h1"), ma(5, "Find the Best Fivem Server"), Eo(), Oo(6, "p", 2), ma(7, "Find servers for your servers quickly and simply."), Eo(), Eo(), Oo(8, "div", 3), Oo(9, "search", 4, 5), Ho("blur", function () {
                   return e.focused = !1
                 })("focus", function () {
                   return e.focused = !0
                 })("search", function (t) {
                   return e.search(t)
-                }), Eo(), Eo(), Oo(11, "div", 3), Oo(12, "mat-chip-list"), Oo(13, "mat-chip"), Oo(14, "a", 6), ma(15, "Top "), Ao(16, "i", 7), Eo(), Eo(), Oo(17, "mat-chip"), Oo(18, "a", 8), ma(19, "Bot Packs "), Ao(20, "i", 9), Eo(), Eo(), Oo(21, "mat-chip"), Oo(22, "a", 10), ma(23, "Trending "), Ao(24, "i", 11), Eo(), Eo(), Oo(25, "mat-chip", 12), Oo(26, "a", 13), Ao(27, "i", 14), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(28, "waves", 15), Oo(29, "div", 16), Ao(30, "bots", 17, 18), So(32, PD, 13, 5, "div", 19), Eo(), Ao(33, "home-footer")), 2 & t) {
+                }), Eo(), Eo(), Oo(11, "div", 3), Oo(12, "mat-chip-list"), Oo(13, "mat-chip"), Oo(14, "a", 6), ma(15, "Top "), Ao(16, "i", 7), Eo(), Eo(), Oo(17, "mat-chip"), Oo(18, "a", 8), ma(19, "Server Packs "), Ao(20, "i", 9), Eo(), Eo(), Oo(21, "mat-chip"), Oo(22, "a", 10), ma(23, "Trending "), Ao(24, "i", 11), Eo(), Eo(), Oo(25, "mat-chip", 12), Oo(26, "a", 13), Ao(27, "i", 14), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(28, "waves", 15), Oo(29, "div", 16), Ao(30, "servers", 17, 18), So(32, PD, 13, 5, "div", 19), Eo(), Ao(33, "home-footer")), 2 & t) {
                 const t = Co(31);
                 na("focused", e.focused), Gr(28), Do("color", e.focused ? "var(--secondary)" : "transparent"), Gr(4), Do("ngIf", !t.query && !t.tag)
               }
@@ -49974,9 +49974,9 @@
           class t {
             constructor(t) {
               t.setTags({
-                titleSuffix: "DBots",
-                titlePrefix: "Best Discord Bots",
-                description: "Find the best bots to add to your servers. We have many different bots including music bots, moderation bots, chat bots and more.",
+                titleSuffix: "FIVEM Servers",
+                titlePrefix: "Best Fivem servers",
+                description: "Find the best servers to add to your servers. We have many different servers including music servers, moderation servers, chat servers and more.",
                 url: "/"
               })
             }
@@ -50689,7 +50689,7 @@
       function fT(t, e) {
         if (1 & t && (Oo(0, "div", 16), So(1, hT, 1, 2, "img", 17), Eo()), 2 & t) {
           const t = e.$implicit;
-          Do("routerLink", Bl(2, pT, "/dashboard/bots/" + t.id)), Gr(1), Do("ngIf", t)
+          Do("routerLink", Bl(2, pT, "/dashboard/servers/" + t.id)), Gr(1), Do("ngIf", t)
         }
       }
       const mT = [
@@ -50741,7 +50741,7 @@
             [3, "src", "alt"],
             [1, "guild-seperator"],
             ["class", "guild-icon", 3, "routerLink", 4, "ngFor", "ngForOf"],
-            ["routerLink", "/dashboard/bots/new", "matTooltip", "Add a Bot", 1, "guild-icon", "invite", "bg-transparent"],
+            ["routerLink", "/dashboard/servers/new", "matTooltip", "Add a Server", 1, "guild-icon", "invite", "bg-transparent"],
             [1, "add-guild", "pt-1", "d-flex", "justify-content-center", "flex-column"],
             [1, "options"],
             [1, "float-right", "d-sm-none", "d-block", "close", 3, "click"],
@@ -51463,7 +51463,7 @@
       function qT(t, e) {
         if (1 & t && (Oo(0, "div"), Ao(1, "img", 10), Oo(2, "div", 11), Oo(3, "h5", 12), ma(4), Eo(), ma(5), Oo(6, "div", 13), Oo(7, "span", 14), ma(8), Eo(), Oo(9, "span", 15), Ao(10, "member-username", 16), Wl(11, "async"), Eo(), Eo(), Eo(), Eo()), 2 & t) {
           const t = Wo().$implicit;
-          Gr(1), Do("src", t.bot.displayAvatarURL, Qi)("alt", t.bot.tag), Gr(3), _a("Bot ", t.feedback.approved ? "Approved" : "Not Approved", ""), Gr(1), _a(" ", t.feedback.message, " "), Gr(3), ga(t.bot.username), Gr(2), Do("user", Ul(11, 6, t.reviewer))
+          Gr(1), Do("src", t.bot.displayAvatarURL, Qi)("alt", t.bot.tag), Gr(3), _a("Server ", t.feedback.approved ? "Approved" : "Not Approved", ""), Gr(1), _a(" ", t.feedback.message, " "), Gr(3), ga(t.bot.username), Gr(2), Do("user", Ul(11, 6, t.reviewer))
         }
       }
 
@@ -51499,9 +51499,9 @@
             ngOnInit() {
               return _u(this, void 0, void 0, function* () {
                 this.seo.setTags({
-                  titlePrefix: "DBots",
+                  titlePrefix: "servers",
                   titleSuffix: "Dashboard",
-                  description: "Manage Discord bot listings, view logs and more with the DBots dashboard.",
+                  description: "Manage fivem server listings, view logs and more with the fivelist dashboard.",
                   url: "dashboard"
                 }), yield this.botService.init();
                 const t = this.botService.userSavedBots.flatMap(t => ({
@@ -51545,7 +51545,7 @@
               [1, "float-right", 3, "user"]
             ],
             template: function (t, e) {
-              1 & t && (Oo(0, "dashboard-sidebar"), Oo(1, "div", 0), Oo(2, "div", 1), Oo(3, "h1", 2), ma(4), Eo(), Oo(5, "h2", 3), ma(6, "Welcome to the DBots dashboard!"), Eo(), Oo(7, "p", 4), ma(8, "Here you can manage bot listings, view bot logs, and more."), Eo(), Eo(), Ao(9, "hr"), So(10, KT, 5, 2, "div", 5), Eo(), Eo()), 2 & t && (Gr(4), _a("Hey, ", e.userService.user.username, ""), Gr(6), Do("ngIf", e.feedback))
+              1 & t && (Oo(0, "dashboard-sidebar"), Oo(1, "div", 0), Oo(2, "div", 1), Oo(3, "h1", 2), ma(4), Eo(), Oo(5, "h2", 3), ma(6, "Welcome to the Servers dashboard!"), Eo(), Oo(7, "p", 4), ma(8, "Here you can manage server listings, view server logs, and more."), Eo(), Eo(), Ao(9, "hr"), So(10, KT, 5, 2, "div", 5), Eo(), Eo()), 2 & t && (Gr(4), _a("Hey, ", e.userService.user.username, ""), Gr(6), Do("ngIf", e.feedback))
             },
             directives: [zT, Zu, Ju, UT],
             pipes: [cd],
@@ -51585,7 +51585,7 @@
       function eO(t, e) {
         if (1 & t && (Oo(0, "div", 9), Oo(1, "a", 10), Ao(2, "i", 11), ma(3, " View Listing"), Eo(), Oo(4, "a", 10), Ao(5, "i", 12), ma(6, " Edit"), Eo(), Oo(7, "a", 10), Ao(8, "i", 13), ma(9, " Log"), Eo(), Oo(10, "div", 5), ma(11, "Stats"), Eo(), Oo(12, "a", 10), Ao(13, "i", 14), ma(14, " API"), Eo(), Oo(15, "a", 10), Ao(16, "i", 15), ma(17, " Analytics"), Eo(), Oo(18, "a", 10), Ao(19, "i", 16), ma(20, " Widget"), Eo(), Eo()), 2 & t) {
           const t = Wo(2);
-          Gr(1), Do("routerLink", Bl(6, tO, "/bots/" + t.user.id)), Gr(3), Do("routerLink", "/dashboard/bots/" + t.user.id + "/edit"), Gr(3), Do("routerLink", "/dashboard/bots/" + t.user.id + "/log"), Gr(5), Do("routerLink", "/dashboard/bots/" + t.user.id + "/api"), Gr(3), Do("routerLink", "/dashboard/bots/" + t.user.id + "/analytics"), Gr(3), Do("routerLink", "/dashboard/bots/" + t.user.id + "/widget")
+          Gr(1), Do("routerLink", Bl(6, tO, "/servers/" + t.user.id)), Gr(3), Do("routerLink", "/dashboard/servers/" + t.user.id + "/edit"), Gr(3), Do("routerLink", "/dashboard/servers/" + t.user.id + "/log"), Gr(5), Do("routerLink", "/dashboard/servers/" + t.user.id + "/api"), Gr(3), Do("routerLink", "/dashboard/servers/" + t.user.id + "/analytics"), Gr(3), Do("routerLink", "/dashboard/servers/" + t.user.id + "/widget")
         }
       }
       const nO = function () {
@@ -51610,7 +51610,7 @@
       function aO(t, e) {
         if (1 & t && (Oo(0, "sidebar"), Oo(1, "div", 1), Oo(2, "div", 2), So(3, QT, 1, 2, "img", 3), Oo(4, "h4", 4), ma(5), Eo(), Eo(), Oo(6, "div", 5), ma(7, "General"), Eo(), So(8, eO, 21, 8, "div", 6), So(9, rO, 7, 4, "div", 6), Eo(), Oo(10, "div", 7), So(11, sO, 3, 0, "div", 0), So(12, oO, 2, 0, "div", 0), Eo(), Eo()), 2 & t) {
           const t = Wo();
-          Gr(3), Do("ngIf", t.user.displayAvatarURL), Gr(1), Do("routerLink", Bl(7, tO, "/dashboard/bots/" + t.user.id)), Gr(1), ga(t.user.username), Gr(3), Do("ngIf", t.user.id), Gr(1), Do("ngIf", !t.user.id), Gr(2), Do("ngIf", t.loaded), Gr(1), Do("ngIf", !t.loaded)
+          Gr(3), Do("ngIf", t.user.displayAvatarURL), Gr(1), Do("routerLink", Bl(7, tO, "/dashboard/servers/" + t.user.id)), Gr(1), ga(t.user.username), Gr(3), Do("ngIf", t.user.id), Gr(1), Do("ngIf", !t.user.id), Gr(2), Do("ngIf", t.loaded), Gr(1), Do("ngIf", !t.loaded)
         }
       }
       const lO = ["*"];
@@ -51620,7 +51620,7 @@
             this.loaded = !0, this.user = {
               id: "",
               displayAvatarURL: "https://cdn.discordapp.com/embed/avatars/0.png",
-              username: "New Bot"
+              username: "New Server"
             }
           }
         }
@@ -51629,7 +51629,7 @@
         }, t.\u0275cmp = Ht({
           type: t,
           selectors: [
-            ["bot-sidebar"]
+            ["server-sidebar"]
           ],
           inputs: {
             loaded: "loaded",
@@ -52327,7 +52327,7 @@
       function JO(t, e) {
         if (1 & t && (Oo(0, "button", 52), Ao(1, "i", 53), ma(2, " Edit"), Eo()), 2 & t) {
           const t = Wo(2);
-          Do("routerLink", Bl(1, GO, "/dashboard/bots/" + t.user.id + "/edit"))
+          Do("routerLink", Bl(1, GO, "/dashboard/servers/" + t.user.id + "/edit"))
         }
       }
 
@@ -52344,7 +52344,7 @@
         }
         if (2 & t) {
           const t = Wo();
-          Gr(1), Do("ngIf", t.canManage || t.userService.isAdmin), Gr(1), Do("ngIf", t.canManage), Gr(1), Do("href", t.bot.listing.invite, Qi), Gr(3), Do("routerLink", Bl(4, GO, "/bots/" + t.user.id + "/vote"))
+          Gr(1), Do("ngIf", t.canManage || t.userService.isAdmin), Gr(1), Do("ngIf", t.canManage), Gr(1), Do("href", t.bot.listing.invite, Qi), Gr(3), Do("routerLink", Bl(4, GO, "/servers/" + t.user.id + "/vote"))
         }
       }
       const ZO = function (t) {
@@ -52369,7 +52369,7 @@
                 body: "",
                 githubURL: "https://github.com/theADAMJR",
                 invite: "",
-                overview: "A good bot I guess...",
+                overview: "A good server I guess...",
                 prefix: "/",
                 tags: ["music", "moderation", "utility"],
                 websiteURL: "https://3pg.xyz"
@@ -52382,7 +52382,7 @@
             }, this.user = {
               id: "",
               displayAvatarURL: "https://cdn.discordapp.com/embed/avatars/0.png",
-              username: "Bot User",
+              username: "Server User",
               discriminator: "0000"
             }, this.packForm = new kv({
               name: new wv("", [Eb.required, Eb.pattern(/^([A-Za-z\d -])+$/)])
@@ -52405,14 +52405,14 @@
           }
           delete() {
             return _u(this, void 0, void 0, function* () {
-              "DELETE" === prompt("Type 'DELETE' to confirm bot page deletion.") && (yield this.service.deleteBot(this.user.id), yield this.service.refreshUserBots(), yield this.service.refreshBots(), this.router.navigate(["/dashboard"]))
+              "DELETE" === prompt("Type 'DELETE' to confirm server page deletion.") && (yield this.service.deleteBot(this.user.id), yield this.service.refreshUserBots(), yield this.service.refreshBots(), this.router.navigate(["/dashboard"]))
             })
           }
           createPack(t) {
             return _u(this, void 0, void 0, function* () {
               yield this.packs.create({
                 name: t,
-                description: "A pack of bots."
+                description: "A pack of servers."
               }), yield this.packs.refreshPacks()
             })
           }
@@ -52438,12 +52438,12 @@
         }, t.\u0275cmp = Ht({
           type: t,
           selectors: [
-            ["bot-preview"]
+            ["server-preview"]
           ],
           inputs: {
             preview: "preview",
             ownerUser: "ownerUser",
-            bot: "bot",
+            bot: "server",
             user: "user"
           },
           decls: 22,
@@ -52516,11 +52516,11 @@
       const tE = ["confirmInput"];
 
       function eE(t, e) {
-        1 & t && (Oo(0, "mat-error"), ma(1, "Required, and should be a valid "), Oo(2, "a", 50), ma(3, "Snowflake ID."), Eo(), ma(4, " It also cannot be the ID of a non-bot user. "), Eo())
+        1 & t && (Oo(0, "mat-error"), ma(1, "Required, and should be a valid "), Oo(2, "a", 50), ma(3, "Snowflake ID."), Eo(), ma(4, " It also cannot be the ID of a non-server user. "), Eo())
       }
 
       function nE(t, e) {
-        if (1 & t && (Oo(0, "mat-form-field", 12), Oo(1, "mat-label"), ma(2, "Bot ID"), Eo(), Ao(3, "input", 49), Oo(4, "mat-hint"), ma(5, "Required"), Eo(), So(6, eE, 5, 0, "mat-error", 14), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "mat-form-field", 12), Oo(1, "mat-label"), ma(2, "Server ID"), Eo(), Ao(3, "input", 49), Oo(4, "mat-hint"), ma(5, "Required"), Eo(), So(6, eE, 5, 0, "mat-error", 14), Eo()), 2 & t) {
           const t = Wo();
           Gr(6), Do("ngIf", t.form.get("botId").invalid)
         }
@@ -52605,16 +52605,16 @@
       }
 
       function gE(t, e) {
-        if (1 & t && (Oo(0, "div", 58), ma(1, " Make sure you are in the "), Oo(2, "a", 59), ma(3, "DBots Discord server"), Eo(), ma(4, ", for your bot to be added. This is required for your bot to show on the list. "), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div", 58), ma(1, " Make sure you are in the "), Oo(2, "a", 59), ma(3, "DBots Discord server"), Eo(), ma(4, ", for your server to be added. This is required for your server to show on the list. "), Eo()), 2 & t) {
           const t = Wo();
           Gr(2), Do("href", t.environment.discordInvite, Qi)
         }
       }
 
       function _E(t, e) {
-        if (1 & t && Ao(0, "bot-preview", 60), 2 & t) {
+        if (1 & t && Ao(0, "server-preview", 60), 2 & t) {
           const t = Wo();
-          Do("bot", t.bot)("preview", !0)("ownerUser", t.userService.user)
+          Do("server", t.bot)("preview", !0)("ownerUser", t.userService.user)
         }
       }
       const yE = function () {
@@ -52640,17 +52640,17 @@
                 presence: {
                   status: "ONLINE"
                 },
-                tag: "New Bot#0001",
-                username: "New Bot"
+                tag: "New Server",
+                username: "New Server"
               }, this.bot = {
                 listing: this.form.value,
                 guildCount: 100,
                 votes: CS(100)
               }, i.setTags({
-                description: "Add a bot to the bot list with this form.",
-                titlePrefix: "Add Bot",
+                description: "Add a server to the server list with this form.",
+                titlePrefix: "Add Server",
                 titleSuffix: "Dashboard",
-                url: "dashboard/bots/new"
+                url: "dashboard/servers/new"
               })
             }
             get canSubmit() {
@@ -52658,7 +52658,7 @@
             }
             get widgetURL() {
               var t;
-              return `${pu.url}/api/v1/bots/${(null===(t=this.user)||void 0===t?void 0:t.id)||"525935335918665760"}/widget`
+              return `${pu.url}/api/v1/servers/${(null===(t=this.user)||void 0===t?void 0:t.id)||"525935335918665760"}/widget`
             }
             ngOnInit() {
               return _u(this, void 0, void 0, function* () {
@@ -52715,7 +52715,7 @@
               })
             }
             navigateToBotListing() {
-              this.apiError || this.router.navigate(["/bots/", this.form.value.botId || "/dashboard"])
+              this.apiError || this.router.navigate(["/servers/", this.form.value.botId || "/dashboard"])
             }
             add(t, e) {
               const {
@@ -52734,7 +52734,7 @@
           }, t.\u0275cmp = Ht({
             type: t,
             selectors: [
-              ["add-bot"]
+              ["add-server"]
             ],
             viewQuery: function (t, e) {
               if (1 & t && oc(tE, !0), 2 & t) {
@@ -52745,12 +52745,12 @@
             inputs: {
               editing: "editing",
               user: "user",
-              bot: "bot"
+              bot: "server"
             },
             decls: 102,
             vars: 29,
             consts: [
-              [3, "bot", "loaded", "user"],
+              [3, "server", "loaded", "user"],
               [1, "container", 3, "hidden"],
               [1, "mb-4"],
               [1, "d-flex", "justify-content-between", "jumbotron"],
@@ -52794,11 +52794,11 @@
               [1, "col-lg-6", "d-none", "d-sm-block", "border-left"],
               ["class", "alert alert-warning border-warning", 4, "ngIf"],
               [1, "d-flex", "justify-content-center", "mb-5"],
-              [1, "mt-5", 3, "user", "bot"],
+              [1, "mt-5", 3, "user", "server"],
               [3, "hidden"],
               ["id", "stopPreviewButton", "color", "danger", "mat-button", "", 3, "click"],
               [1, "fas", "fa-times"],
-              [3, "bot", "preview", "ownerUser", 4, "ngIf"],
+              [3, "server", "preview", "ownerUser", 4, "ngIf"],
               ["formControlName", "botId", "type", "text", "matInput", ""],
               ["href", "https://discord.com/developers/docs/reference#snowflakes", "rel", "nofollow", "target", "_blank"],
               [1, "float-right"],
@@ -52810,19 +52810,19 @@
               ["id", "update", 3, "precondition", "click", "animated"],
               [1, "alert", "alert-warning", "border-warning"],
               [1, "text-primary", 3, "href"],
-              [3, "bot", "preview", "ownerUser"]
+              [3, "server", "preview", "ownerUser"]
             ],
             template: function (t, e) {
-              if (1 & t && (Oo(0, "bot-sidebar", 0), Oo(1, "div", 1), Oo(2, "div", 2), Oo(3, "div", 3), Ao(4, "span"), Oo(5, "h1", 4), ma(6, "Add Bot"), Eo(), Oo(7, "button", 5), Ho("click", function () {
+              if (1 & t && (Oo(0, "server-sidebar", 0), Oo(1, "div", 1), Oo(2, "div", 2), Oo(3, "div", 3), Ao(4, "span"), Oo(5, "h1", 4), ma(6, "Add Server"), Eo(), Oo(7, "button", 5), Ho("click", function () {
                   return e.preview = !0
-                }), Ao(8, "i", 6), ma(9, " Preview "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Bot Invite URL"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Bot Invite Generator"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Bot Overview"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Command Prefix"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Body"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function (t) {
+                }), Ao(8, "i", 6), ma(9, " Preview "), Eo(), Eo(), Eo(), Oo(10, "div", 7), Oo(11, "div", 8), Oo(12, "form", 9, 10), So(14, nE, 7, 1, "mat-form-field", 11), Oo(15, "mat-form-field", 12), Oo(16, "mat-label"), ma(17, "Server Invite URL"), Eo(), Ao(18, "input", 13), Oo(19, "mat-hint"), ma(20, "Required"), Eo(), So(21, iE, 2, 0, "mat-error", 14), Eo(), Oo(22, "p", 15), Oo(23, "a", 16), ma(24, "Server Invite Generator"), Eo(), Eo(), Ao(25, "hr"), Oo(26, "mat-form-field", 12), Oo(27, "mat-label"), ma(28, "Server Overview"), Eo(), Ao(29, "textarea", 17, 18), Oo(31, "mat-hint", 19), ma(32), Eo(), So(33, rE, 2, 0, "mat-error", 14), Eo(), Oo(34, "mat-form-field", 12), Oo(35, "mat-label"), ma(36, "Command Prefix"), Eo(), Ao(37, "input", 20), Oo(38, "mat-hint"), ma(39, "Required"), Eo(), So(40, sE, 2, 0, "mat-error", 14), Eo(), Oo(41, "mat-form-field", 21), Oo(42, "mat-label"), ma(43, "Body"), Eo(), Ao(44, "textarea", 22, 23), Oo(46, "mat-hint", 19), ma(47), Eo(), So(48, oE, 4, 1, "mat-error", 14), Eo(), Ao(49, "hr"), Oo(50, "mat-form-field", 12), Oo(51, "mat-label"), ma(52, "Tags"), Eo(), Oo(53, "mat-select", 24), Oo(54, "input", 25), Ho("input", function (t) {
                   return e.filterTags(t.target.value)
-                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "Select up to 8 tags"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Support Server Invite"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "I have read the "), Oo(81, "a", 35), ma(82, " bot guidelines"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Bot Card"), Eo(), Oo(93, "p"), ma(94, "This is what your bot card will look like to new users."), Eo(), Oo(95, "div", 43), Ao(96, "bot-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function () {
+                }), Eo(), So(55, aE, 3, 4, "mat-option", 26), Eo(), Oo(56, "mat-hint"), ma(57, "Select up to 8 tags"), Eo(), So(58, lE, 2, 0, "mat-error", 14), Eo(), Oo(59, "mat-form-field", 12), Oo(60, "mat-label"), ma(61, "Support Server Invite"), Eo(), Oo(62, "span", 27), ma(63, "discord.gg/"), Eo(), Ao(64, "input", 28), So(65, cE, 2, 0, "mat-error", 14), Eo(), Oo(66, "mat-form-field", 12), Oo(67, "mat-label"), ma(68, "Github URL"), Eo(), Ao(69, "input", 29), So(70, uE, 2, 0, "mat-error", 14), Eo(), Oo(71, "mat-form-field", 12), Oo(72, "mat-label"), ma(73, "Website URL"), Eo(), Ao(74, "input", 30), So(75, dE, 2, 0, "mat-error", 14), Eo(), Oo(76, "div", 31), Ao(77, "mat-checkbox", 32, 33), Oo(79, "label", 34), ma(80, "I have read the "), Oo(81, "a", 35), ma(82, " server guidelines"), Eo(), ma(83, ". "), Eo(), Eo(), So(84, hE, 3, 0, "div", 36), So(85, pE, 2, 1, "div", 37), Oo(86, "div", 38), So(87, fE, 2, 1, "rocket-button", 39), So(88, mE, 2, 1, "rocket-button", 40), Eo(), Eo(), Eo(), Oo(89, "div", 41), So(90, gE, 5, 1, "div", 42), Oo(91, "h3"), ma(92, "Server Card"), Eo(), Oo(93, "p"), ma(94, "This is what your server card will look like to new users."), Eo(), Oo(95, "div", 43), Ao(96, "server-card", 44), Eo(), Eo(), Eo(), Eo(), Oo(97, "div", 45), Oo(98, "div", 38), Oo(99, "button", 46), Ho("click", function () {
                   return e.preview = !1
-                }), Ao(100, "i", 47), Eo(), Eo(), So(101, _E, 1, 3, "bot-preview", 48), Eo(), Eo()), 2 & t) {
+                }), Ao(100, "i", 47), Eo(), Eo(), So(101, _E, 1, 3, "server-preview", 48), Eo(), Eo()), 2 & t) {
                 const t = Co(30),
                   n = Co(45);
-                Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(1), Do("hidden", e.preview), Gr(4), Do("textContent", e.editing ? "Edit " + (null == e.user ? null : e.user.username) : "Add Bot"), Gr(7), Do("formGroup", e.form), Gr(2), Do("ngIf", !e.editing), Gr(7), Do("ngIf", e.form.get("invite").invalid), Gr(11), _a("", t.value.length, "/128"), Gr(1), Do("ngIf", e.form.get("overview").invalid), Gr(7), Do("ngIf", e.form.get("prefix").invalid), Gr(7), ga(n.value.length), Gr(1), Do("ngIf", e.form.get("body").invalid), Gr(7), Do("ngForOf", e.filteredTags), Gr(3), Do("ngIf", e.form.get("tags").invalid), Gr(7), Do("ngIf", e.form.get("supportInvite").invalid), Gr(5), Do("ngIf", e.form.get("githubURL").invalid), Gr(5), Do("ngIf", e.form.get("websiteURL").invalid), Gr(6), Do("routerLink", Nl(28, yE)), Gr(3), Do("ngIf", e.form.hasError("invalid")), Gr(1), Do("ngIf", e.apiError), Gr(2), Do("ngIf", !e.editing), Gr(1), Do("ngIf", e.editing), Gr(2), Do("ngIf", !e.editing), Gr(6), Do("user", e.user)("bot", e.bot), Gr(1), Do("hidden", !e.preview), Gr(4), Do("ngIf", e.bot)
+                Do("server", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(1), Do("hidden", e.preview), Gr(4), Do("textContent", e.editing ? "Edit " + (null == e.user ? null : e.user.username) : "Add Server"), Gr(7), Do("formGroup", e.form), Gr(2), Do("ngIf", !e.editing), Gr(7), Do("ngIf", e.form.get("invite").invalid), Gr(11), _a("", t.value.length, "/128"), Gr(1), Do("ngIf", e.form.get("overview").invalid), Gr(7), Do("ngIf", e.form.get("prefix").invalid), Gr(7), ga(n.value.length), Gr(1), Do("ngIf", e.form.get("body").invalid), Gr(7), Do("ngForOf", e.filteredTags), Gr(3), Do("ngIf", e.form.get("tags").invalid), Gr(7), Do("ngIf", e.form.get("supportInvite").invalid), Gr(5), Do("ngIf", e.form.get("githubURL").invalid), Gr(5), Do("ngIf", e.form.get("websiteURL").invalid), Gr(6), Do("routerLink", Nl(28, yE)), Gr(3), Do("ngIf", e.form.hasError("invalid")), Gr(1), Do("ngIf", e.apiError), Gr(2), Do("ngIf", !e.editing), Gr(1), Do("ngIf", e.editing), Gr(2), Do("ngIf", !e.editing), Gr(6), Do("user", e.user)("server", e.bot), Gr(1), Do("hidden", !e.preview), Gr(4), Do("ngIf", e.bot)
               }
             },
             directives: [cO, bS, Lv, Gb, Ov, Zu, SC, mC, Sb, yO, $b, Av, Pv, fC, jT, Ju, yC, EO, UM, $M, hD, cC, l_, IO, QO],
@@ -52853,21 +52853,21 @@
         })();
 
       function wE(t, e) {
-        1 & t && (Oo(0, "div", 9), Ao(1, "i", 10), ma(2, " Your bot will visible on the bot list if it is approved. "), Eo())
+        1 & t && (Oo(0, "div", 9), Ao(1, "i", 10), ma(2, " Your server will visible on the server list if it is approved. "), Eo())
       }
 
       function kE(t, e) {
-        if (1 & t && Ao(0, "bot-preview", 11), 2 & t) {
+        if (1 & t && Ao(0, "server-preview", 11), 2 & t) {
           const t = Wo(2);
-          Do("bot", t.bot)("user", t.user)("ownerUser", t.ownerUser)
+          Do("server", t.bot)("user", t.user)("ownerUser", t.ownerUser)
         }
       }
       const xE = function (t) {
-        return ["/bots/", t]
+        return ["/servers/", t]
       };
 
       function ME(t, e) {
-        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "Bots"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), So(9, wE, 3, 0, "div", 7), So(10, kE, 1, 3, "bot-preview", 8), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "servers"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), So(9, wE, 3, 0, "div", 7), So(10, kE, 1, 3, "server-preview", 8), Eo()), 2 & t) {
           const t = Wo();
           Gr(7), Do("routerLink", Bl(4, xE, t.user.id)), Gr(1), ga(t.user.username), Gr(1), Do("ngIf", !t.bot.approvedAt), Gr(1), Do("ngIf", t.bot.listing)
         }
@@ -52888,8 +52888,8 @@
                 this.seo.setTags({
                   description: this.bot.listing.overview,
                   titlePrefix: this.user.username,
-                  titleSuffix: "DBots",
-                  url: "bots/" + this.id
+                  titleSuffix: "servers",
+                  url: "servers/" + this.id
                 }), this.analytics.botPageView({
                   botId: this.user.id
                 })
@@ -52902,7 +52902,7 @@
         }, t.\u0275cmp = Ht({
           type: t,
           selectors: [
-            ["app-bot-page"]
+            ["app-server-page"]
           ],
           decls: 4,
           vars: 2,
@@ -52912,13 +52912,13 @@
             ["aria-label", "breadcrumb"],
             [1, "breadcrumb"],
             [1, "breadcrumb-item"],
-            ["routerLink", "/bots"],
+            ["routerLink", "/servers"],
             [3, "routerLink"],
             ["class", "alert alert-info mx-5", 4, "ngIf"],
-            [3, "bot", "user", "ownerUser", 4, "ngIf"],
+            [3, "server", "user", "ownerUser", 4, "ngIf"],
             [1, "alert", "alert-info", "mx-5"],
             ["aria-hidden", "true", 1, "fas", "fa-info-circle"],
-            [3, "bot", "user", "ownerUser"],
+            [3, "server", "user", "ownerUser"],
             [1, "container"]
           ],
           template: function (t, e) {
@@ -53122,10 +53122,10 @@
             this.route.paramMap.subscribe(t => _u(this, void 0, void 0, function* () {
               const e = t.get("id");
               if (this.bot = yield this.botsService.getSavedBot(e), this.stats = yield this.botsService.getStats(e), this.user = yield this.userService.getUser(e), this.seo.setTags({
-                  description: `Overview of ${this.user.tag} bot listing.`,
+                  description: `Overview of ${this.user.tag} server listing.`,
                   titlePrefix: this.user.tag,
                   titleSuffix: "Overview",
-                  url: "dashboard/bots/" + this.user.id
+                  url: "dashboard/servers/" + this.user.id
                 }), !this.bot || !this.user) return this.router.navigate(["/dashboard"])
             }))
           }
@@ -53135,7 +53135,7 @@
         }, t.\u0275cmp = Ht({
           type: t,
           selectors: [
-            ["app-bot"]
+            ["app-server"]
           ],
           decls: 2,
           vars: 2,
@@ -53151,9 +53151,9 @@
             [3, "id"],
             [1, "row", "color-heading"],
             [1, "col-lg-3", "col-sm-6"],
-            ["matTooltip", "Date of bot approval.", 1, "stats", "cursor-pointer"],
+            ["matTooltip", "Date of server approval.", 1, "stats", "cursor-pointer"],
             [1, "fas", "fa-check"],
-            ["matTooltip", "Date of last bot vote.", 1, "stats", "cursor-pointer"],
+            ["matTooltip", "Date of last server vote.", 1, "stats", "cursor-pointer"],
             [1, "fas", "fa-calendar-check"],
             ["matTooltip", "Number of total votes this week.", 1, "stats", "cursor-pointer"],
             [1, "fas", "fa-chevron-circle-up"],
@@ -53162,7 +53162,7 @@
             [1, "text-muted"]
           ],
           template: function (t, e) {
-            1 & t && (Oo(0, "bot-sidebar", 0), So(1, FE, 11, 3, "section", 1), Eo()), 2 & t && (Do("user", e.user), Gr(1), Do("ngIf", e.bot && e.user))
+            1 & t && (Oo(0, "server-sidebar", 0), So(1, FE, 11, 3, "section", 1), Eo()), 2 & t && (Do("user", e.user), Gr(1), Do("ngIf", e.bot && e.user))
           },
           directives: [cO, Zu, OE, PE, rD],
           pipes: [RE, dd],
@@ -53189,7 +53189,7 @@
       function VE(t, e) {
         if (1 & t && (Oo(0, "div", 1), Oo(1, "div", 2), Oo(2, "a", 3), Ao(3, "img", 4), Eo(), Eo(), Oo(4, "div", 5), Oo(5, "button", 6), Ao(6, "i", 7), ma(7, " Back "), Eo(), So(8, NE, 3, 0, "button", 8), So(9, BE, 3, 0, "button", 9), Eo(), Eo()), 2 & t) {
           const t = Wo();
-          Gr(2), Do("href", "/bots/" + t.id, Qi), Gr(1), Do("src", t.widgetURL, Qi)("alt", t.user.username), Gr(2), Do("routerLink", Bl(6, zE, "/bots/" + t.id)), Gr(3), Do("ngIf", !t.userService.user), Gr(1), Do("ngIf", t.userService.user)
+          Gr(2), Do("href", "/servers/" + t.id, Qi), Gr(1), Do("src", t.widgetURL, Qi)("alt", t.user.username), Gr(2), Do("routerLink", Bl(6, zE, "/servers/" + t.id)), Gr(3), Do("ngIf", !t.userService.user), Gr(1), Do("ngIf", t.userService.user)
         }
       }
 
@@ -53202,7 +53202,7 @@
               this.route = t, this.router = e, this.seo = n, this.service = i, this.themeService = r, this.userService = s
             }
             get widgetURL() {
-              return `${pu.endpoint}/bots/${this.id}/widget?size=medium`
+              return `${pu.endpoint}/servers/${this.id}/widget?size=medium`
             }
             get id() {
               return this.route.snapshot.paramMap.get("id")
@@ -53213,8 +53213,8 @@
                 this.seo.setTags({
                   description: this.bot.listing.overview,
                   titlePrefix: "Vote for " + this.user.username,
-                  titleSuffix: "DBots",
-                  url: "bots/" + this.id
+                  titleSuffix: "servers",
+                  url: "servers/" + this.id
                 }), this.themeService.setNavbarBackground("transparent")
               })
             }
@@ -53227,7 +53227,7 @@
                   } catch (e) {
                     alert(null === (t = null == e ? void 0 : e.error) || void 0 === t ? void 0 : t.message)
                   }
-                  return yield this.service.refreshBots(), this.router.navigate(["/bots/" + this.id])
+                  return yield this.service.refreshBots(), this.router.navigate(["/servers/" + this.id])
                 }
               })
             }
@@ -53237,7 +53237,7 @@
           }, t.\u0275cmp = Ht({
             type: t,
             selectors: [
-              ["app-bot-vote"]
+              ["app-server-vote"]
             ],
             decls: 4,
             vars: 2,
@@ -53305,7 +53305,7 @@
                   description: "",
                   titlePrefix: this.user.tag,
                   titleSuffix: "Edit",
-                  url: "dashboard/bots/" + this.id
+                  url: "dashboard/servers/" + this.id
                 })
               })
             }
@@ -53315,15 +53315,15 @@
           }, t.\u0275cmp = Ht({
             type: t,
             selectors: [
-              ["app-edit-bot"]
+              ["app-edit-server"]
             ],
             decls: 1,
             vars: 2,
             consts: [
-              ["editing", "true", 3, "bot", "user"]
+              ["editing", "true", 3, "server", "user"]
             ],
             template: function (t, e) {
-              1 & t && Ao(0, "add-bot", 0), 2 & t && Do("bot", e.bot)("user", e.user)
+              1 & t && Ao(0, "add-server", 0), 2 & t && Do("server", e.bot)("user", e.user)
             },
             directives: [bE],
             styles: [""]
@@ -55288,10 +55288,10 @@
               yield this.botService.init();
               const t = this.route.snapshot.paramMap.get("id");
               this.bot = this.botService.getSavedBot(t), this.user = this.botService.getBot(t), this.seo.setTags({
-                titlePrefix: "DBots",
+                titlePrefix: "servers",
                 titleSuffix: this.user.username + " Logs",
-                description: "View bot logs and changes to the bot listing.",
-                url: `dashboard/bots/${t}/log`
+                description: "View server logs and changes to the server listing.",
+                url: `dashboard/servers/${t}/log`
               });
               const e = yield this.botService.getSavedLog(t);
               this.changes = e.changes.reverse(), this.dataSource = new TY(this.changes), this.dataSource.paginator = this.paginator, this.dataSource.sort = this.sort
@@ -55317,7 +55317,7 @@
           decls: 11,
           vars: 4,
           consts: [
-            [3, "bot", "loaded", "user"],
+            [3, "server", "loaded", "user"],
             [1, "container"],
             [1, "display-4"],
             [1, "my-2"],
@@ -55346,9 +55346,9 @@
             ["mat-row", ""]
           ],
           template: function (t, e) {
-            1 & t && (Oo(0, "bot-sidebar", 0), Oo(1, "div", 1), Oo(2, "header"), Oo(3, "h1", 2), ma(4, "Audit Log"), Eo(), Ao(5, "hr", 3), Eo(), Oo(6, "mat-form-field", 4), Oo(7, "mat-label"), ma(8, "Filter"), Eo(), Oo(9, "input", 5), Ho("keyup", function (t) {
+            1 & t && (Oo(0, "server-sidebar", 0), Oo(1, "div", 1), Oo(2, "header"), Oo(3, "h1", 2), ma(4, "Audit Log"), Eo(), Ao(5, "hr", 3), Eo(), Oo(6, "mat-form-field", 4), Oo(7, "mat-label"), ma(8, "Filter"), Eo(), Oo(9, "input", 5), Ho("keyup", function (t) {
               return e.applyFilter(t)
-            }), Eo(), Eo(), So(10, VY, 20, 5, "div", 6), Eo(), Eo()), 2 & t && (Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(10), Do("ngIf", e.dataSource))
+            }), Eo(), Eo(), So(10, VY, 20, 5, "div", 6), Eo(), Eo()), 2 & t && (Do("server", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(10), Do("ngIf", e.dataSource))
           },
           directives: [cO, SC, mC, yO, Zu, lY, pA, fY, hY, uY, vY, kY, oA, gY, wA, yY, UT, iw, MY, CY],
           pipes: [ud, RE],
@@ -55728,7 +55728,7 @@
         rP = (() => {
           class t {
             constructor(t) {
-              this.http = t, this.endpoint = pu.endpoint + "/bots"
+              this.http = t, this.endpoint = pu.endpoint + "/servers"
             }
             get key() {
               return localStorage.getItem("key")
@@ -55778,13 +55778,13 @@
       function aP(t, e) {
         if (1 & t) {
           const t = Io();
-          Oo(0, "div", 3), Oo(1, "header", 4), Oo(2, "h1", 5), ma(3, "API"), Eo(), Ao(4, "hr", 6), Eo(), Oo(5, "span"), Oo(6, "span", 7), Oo(7, "a", 8), Ao(8, "i", 9), ma(9, " How to Post Stats"), Eo(), Eo(), Eo(), Oo(10, "div", 10), Oo(11, "p", 11), Ao(12, "i", 12), ma(13, " Users with this token can post stats to your bot."), Eo(), Oo(14, "p"), ma(15, "Bot API token: "), Oo(16, "code", 13), ma(17), Eo(), Eo(), Oo(18, "div", 14), Oo(19, "button", 15), Ho("click", function () {
+          Oo(0, "div", 3), Oo(1, "header", 4), Oo(2, "h1", 5), ma(3, "API"), Eo(), Ao(4, "hr", 6), Eo(), Oo(5, "span"), Oo(6, "span", 7), Oo(7, "a", 8), Ao(8, "i", 9), ma(9, " How to Post Stats"), Eo(), Eo(), Eo(), Oo(10, "div", 10), Oo(11, "p", 11), Ao(12, "i", 12), ma(13, " Users with this token can post stats to your server."), Eo(), Oo(14, "p"), ma(15, "Server API token: "), Oo(16, "code", 13), ma(17), Eo(), Eo(), Oo(18, "div", 14), Oo(19, "button", 15), Ho("click", function () {
             return Ae(t), Wo().regenerate()
           }), Ao(20, "i", 16), Eo(), Oo(21, "button", 17), Ho("click", function () {
             return Ae(t), Wo().toggleHidden()
           }), Ao(22, "i", 18), Eo(), Oo(23, "button", 19), Ho("click", function () {
             return Ae(t), Wo().copyToken()
-          }), Ao(24, "i", 20), Eo(), Eo(), Oo(25, "div", 21), Oo(26, "div", 22), Oo(27, "form", 23, 24), Oo(29, "mat-form-field", 25), Oo(30, "mat-label"), ma(31, "Vote Webhook URL"), Eo(), Ao(32, "input", 26), So(33, sP, 2, 0, "mat-error", 27), Eo(), Oo(34, "p"), ma(35, "The vote webook URL is sent when a user votes for your bot."), Eo(), Oo(36, "button", 28), Ho("click", function () {
+          }), Ao(24, "i", 20), Eo(), Eo(), Oo(25, "div", 21), Oo(26, "div", 22), Oo(27, "form", 23, 24), Oo(29, "mat-form-field", 25), Oo(30, "mat-label"), ma(31, "Vote Webhook URL"), Eo(), Ao(32, "input", 26), So(33, sP, 2, 0, "mat-error", 27), Eo(), Oo(34, "p"), ma(35, "The vote webook URL is sent when a user votes for your server."), Eo(), Oo(36, "button", 28), Ho("click", function () {
             return Ae(t), Wo().testWebhook()
           }), ma(37, "Test"), Eo(), Eo(), Eo(), Oo(38, "div", 22), So(39, oP, 3, 5, "div", 29), Eo(), Eo(), Eo(), Eo()
         }
@@ -55814,7 +55814,7 @@
                 description: "",
                 titlePrefix: this.user.tag,
                 titleSuffix: "API",
-                url: "dashboard/bots/" + this.id
+                url: "dashboard/servers/" + this.id
               })
             })
           }
@@ -55880,7 +55880,7 @@
           decls: 3,
           vars: 4,
           consts: [
-            [3, "bot", "loaded", "user"],
+            [3, "server", "loaded", "user"],
             ["sidebar", ""],
             ["class", "container", 4, "ngIf"],
             [1, "container"],
@@ -55913,9 +55913,9 @@
             [1, "alert"]
           ],
           template: function (t, e) {
-            if (1 & t && (Oo(0, "bot-sidebar", 0, 1), So(2, aP, 40, 5, "div", 2), Eo()), 2 & t) {
+            if (1 & t && (Oo(0, "server-sidebar", 0, 1), So(2, aP, 40, 5, "div", 2), Eo()), 2 & t) {
               const t = Co(1);
-              Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(2), Do("ngIf", t.loaded)
+              Do("server", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(2), Do("ngIf", t.loaded)
             }
           },
           directives: [cO, Zu, UM, bS, Lv, Gb, Ov, SC, mC, Sb, yO, $b, Av, Pv, cC],
@@ -55938,7 +55938,7 @@
             })
           }
           get widgetURL() {
-            return `${pu.url}/api/v1/bots/${this.id}/widget?size=${this.form.value.size}`
+            return `${pu.url}/api/v1/servers/${this.id}/widget?size=${this.form.value.size}`
           }
           get id() {
             return this.route.snapshot.paramMap.get("id")
@@ -55949,7 +55949,7 @@
                 description: "",
                 titlePrefix: this.user.tag,
                 titleSuffix: "Widget",
-                url: "dashboard/bots/" + this.id
+                url: "dashboard/servers/" + this.id
               })
             })
           }
@@ -55959,12 +55959,12 @@
         }, t.\u0275cmp = Ht({
           type: t,
           selectors: [
-            ["app-bot-widget"]
+            ["app-server-widget"]
           ],
           decls: 23,
           vars: 10,
           consts: [
-            [3, "bot", "loaded", "user"],
+            [3, "server", "loaded", "user"],
             ["sidebar", ""],
             [1, "container"],
             ["class", "text-center", 4, "ngIf"],
@@ -55984,9 +55984,9 @@
             [1, "my-2"]
           ],
           template: function (t, e) {
-            if (1 & t && (Oo(0, "bot-sidebar", 0, 1), Oo(2, "div", 2), So(3, cP, 4, 1, "header", 3), Oo(4, "div", 4), Oo(5, "div"), Oo(6, "a", 5), Ao(7, "img", 6), Eo(), Oo(8, "form", 7, 8), Oo(10, "mat-form-field", 9), Oo(11, "mat-label"), ma(12, "Size"), Eo(), Oo(13, "mat-select", 10), Oo(14, "mat-option", 11), ma(15, "Small"), Eo(), Oo(16, "mat-option", 12), ma(17, "Medium"), Eo(), Oo(18, "mat-option", 13), ma(19, "Large"), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Oo(20, "pre", 14), Oo(21, "code"), ma(22), Eo(), Eo(), Eo(), Eo()), 2 & t) {
+            if (1 & t && (Oo(0, "server-sidebar", 0, 1), Oo(2, "div", 2), So(3, cP, 4, 1, "header", 3), Oo(4, "div", 4), Oo(5, "div"), Oo(6, "a", 5), Ao(7, "img", 6), Eo(), Oo(8, "form", 7, 8), Oo(10, "mat-form-field", 9), Oo(11, "mat-label"), ma(12, "Size"), Eo(), Oo(13, "mat-select", 10), Oo(14, "mat-option", 11), ma(15, "Small"), Eo(), Oo(16, "mat-option", 12), ma(17, "Medium"), Eo(), Oo(18, "mat-option", 13), ma(19, "Large"), Eo(), Eo(), Eo(), Eo(), Eo(), Eo(), Oo(20, "pre", 14), Oo(21, "code"), ma(22), Eo(), Eo(), Eo(), Eo()), 2 & t) {
               const t = Co(1);
-              Do("bot", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(3), Do("ngIf", t.loaded), Gr(3), Do("href", "/bots/" + e.id, Qi), Gr(1), Do("src", e.widgetURL, Qi)("alt", null == e.user ? null : e.user.username), Gr(1), Do("formGroup", e.form), Gr(14), ya('<a href="https://fivelist.xyz/bots/', e.user.id, '">\n  <img src="', e.widgetURL, '" alt="View on DBots">\n</a>')
+              Do("server", e.bot)("loaded", e.bot && e.user)("user", e.user), Gr(3), Do("ngIf", t.loaded), Gr(3), Do("href", "/servers/" + e.id, Qi), Gr(1), Do("src", e.widgetURL, Qi)("alt", null == e.user ? null : e.user.username), Gr(1), Do("formGroup", e.form), Gr(14), ya('<a href="https://fivelist.xyz/servers/', e.user.id, '">\n  <img src="', e.widgetURL, '" alt="View on servers">\n</a>')
             }
           },
           directives: [cO, Zu, Lv, Gb, Ov, SC, mC, jT, $b, Av, l_],
@@ -56010,7 +56010,7 @@
       };
 
       function mP(t, e) {
-        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "Users"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), Oo(9, "header", 7), Oo(10, "div", 8), Ao(11, "img", 9), Oo(12, "h1"), ma(13), Oo(14, "span", 10), ma(15), Eo(), Eo(), Oo(16, "p", 11), So(17, dP, 2, 0, "span", 12), So(18, hP, 2, 0, "span", 13), So(19, pP, 2, 0, "span", 14), Eo(), Eo(), Eo(), Ao(20, "waves", 15), Oo(21, "div", 16), Ao(22, "bots", 17), Ao(23, "packs", 17), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "Users"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), Oo(9, "header", 7), Oo(10, "div", 8), Ao(11, "img", 9), Oo(12, "h1"), ma(13), Oo(14, "span", 10), ma(15), Eo(), Eo(), Oo(16, "p", 11), So(17, dP, 2, 0, "span", 12), So(18, hP, 2, 0, "span", 13), So(19, pP, 2, 0, "span", 14), Eo(), Eo(), Eo(), Ao(20, "waves", 15), Oo(21, "div", 16), Ao(22, "servers", 17), Ao(23, "packs", 17), Eo(), Eo()), 2 & t) {
           const t = Wo();
           Gr(7), Do("routerLink", Bl(11, fP, t.user.id)), Gr(1), ga(t.user.id), Gr(3), Do("src", t.user.displayAvatarURL, Qi), Gr(2), ga(t.user.username), Gr(2), _a("#", t.user.discriminator, ""), Gr(2), Do("ngIf", "admin" === t.savedUser.role), Gr(1), Do("ngIf", t.savedUser.badges.includes("BETA_TESTER")), Gr(1), Do("ngIf", t.savedUser.badges.includes("OG")), Gr(1), Do("inverted", !0), Gr(2), Do("ownerUser", t.user), Gr(1), Do("ownerUser", t.user)
         }
@@ -56032,7 +56032,7 @@
               if (this.user = yield this.userService.getUser(e), this.savedUser = yield this.userService.getSavedUser(e), !this.user || (null === (t = this.user) || void 0 === t ? void 0 : t.bot)) return this.router.navigate(["/"]);
               this.seo.setTags({
                 titlePrefix: this.user.username,
-                description: `View ${this.user.username}'s bots and their public profile.`,
+                description: `View ${this.user.username}'s servers and their public profile.`,
                 url: "users/" + this.user.id
               }), document.querySelector(".navbar").setAttribute("style", "\n        background-color: var(--background-secondary) !important;\n        margin-bottom: -5px;\n      ")
             })
@@ -56064,7 +56064,7 @@
             ["matTooltip", "Beta Tester", "class", "badge badge-info cursor-pointer mx-1", 4, "ngIf"],
             ["matTooltip", "OG", "class", "badge badge-primary cursor-pointer mx-1", 4, "ngIf"],
             [3, "inverted"],
-            ["id", "bots", 1, "container"],
+            ["id", "servers", 1, "container"],
             [3, "ownerUser"],
             ["matTooltip", "Admin", 1, "badge", "badge-danger", "cursor-pointer", "mx-1"],
             [1, "fas", "fa-hammer"],
@@ -56077,7 +56077,7 @@
             1 & t && (Ao(0, "navbar"), So(1, mP, 24, 13, "div", 0), So(2, gP, 2, 0, "div", 1), Ao(3, "home-footer")), 2 & t && (Gr(1), Do("ngIf", e.user && e.savedUser), Gr(1), Do("ngIf", !e.user))
           },
           directives: [ES, Zu, yD, UM, zC, _D, CD, rD, pD],
-          styles: ["header[_ngcontent-%COMP%]{background-color:var(--background-secondary);margin-top:-65px;padding-top:125px}h1[_ngcontent-%COMP%]{text-overflow:clip}img[_ngcontent-%COMP%]{float:left;margin-right:15px;border-radius:10px;width:96px}#bots[_ngcontent-%COMP%]{min-height:480px}a[_ngcontent-%COMP%]{color:var(--heading)}"]
+          styles: ["header[_ngcontent-%COMP%]{background-color:var(--background-secondary);margin-top:-65px;padding-top:125px}h1[_ngcontent-%COMP%]{text-overflow:clip}img[_ngcontent-%COMP%]{float:left;margin-right:15px;border-radius:10px;width:96px}#servers[_ngcontent-%COMP%]{min-height:480px}a[_ngcontent-%COMP%]{color:var(--heading)}"]
         }), t
       })();
 
@@ -56186,7 +56186,7 @@
       }
 
       function DP(t, e) {
-        if (1 & t && (Oo(0, "div", 3), Oo(1, "header", 4), Oo(2, "h1", 5), ma(3), Eo(), Oo(4, "p", 6), ma(5, "View real time analytics for your bot."), Eo(), Ao(6, "hr", 7), Eo(), Oo(7, "section", 8), Oo(8, "div", 9), Oo(9, "h2"), ma(10, "Today's Summary"), Eo(), Oo(11, "p"), ma(12, "Last updated at "), Oo(13, "strong"), ma(14), Wl(15, "cleanDateTime"), Eo(), Eo(), Eo(), Oo(16, "div", 10), Oo(17, "div", 11), Oo(18, "div", 12), Oo(19, "h3"), ma(20, "Impressions"), Eo(), Oo(21, "p"), ma(22, "How many times your bot card has been seen."), Eo(), Oo(23, "span"), ma(24), Eo(), Eo(), Eo(), Oo(25, "div", 11), Oo(26, "div", 12), Oo(27, "h3"), ma(28, "Views"), Eo(), Oo(29, "p"), ma(30, "How many times your bot page has been seen."), Eo(), Oo(31, "span"), ma(32), Eo(), Eo(), Eo(), Oo(33, "div", 11), Oo(34, "div", 12), Oo(35, "h3"), ma(36, "CTR"), Eo(), Oo(37, "p"), ma(38, "% of those who saw your bot card, that clicked it."), Eo(), Oo(39, "span"), ma(40), Eo(), Eo(), Eo(), Oo(41, "div", 11), Oo(42, "div", 12), Oo(43, "h3"), ma(44, "Invites"), Eo(), Oo(45, "p"), ma(46, "Number of invite link clicks."), Eo(), Oo(47, "span"), ma(48), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(49, "hr"), So(50, LP, 46, 14, "section", 13), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div", 3), Oo(1, "header", 4), Oo(2, "h1", 5), ma(3), Eo(), Oo(4, "p", 6), ma(5, "View real time analytics for your server."), Eo(), Ao(6, "hr", 7), Eo(), Oo(7, "section", 8), Oo(8, "div", 9), Oo(9, "h2"), ma(10, "Today's Summary"), Eo(), Oo(11, "p"), ma(12, "Last updated at "), Oo(13, "strong"), ma(14), Wl(15, "cleanDateTime"), Eo(), Eo(), Eo(), Oo(16, "div", 10), Oo(17, "div", 11), Oo(18, "div", 12), Oo(19, "h3"), ma(20, "Impressions"), Eo(), Oo(21, "p"), ma(22, "How many times your server card has been seen."), Eo(), Oo(23, "span"), ma(24), Eo(), Eo(), Eo(), Oo(25, "div", 11), Oo(26, "div", 12), Oo(27, "h3"), ma(28, "Views"), Eo(), Oo(29, "p"), ma(30, "How many times your server page has been seen."), Eo(), Oo(31, "span"), ma(32), Eo(), Eo(), Eo(), Oo(33, "div", 11), Oo(34, "div", 12), Oo(35, "h3"), ma(36, "CTR"), Eo(), Oo(37, "p"), ma(38, "% of those who saw your server card, that clicked it."), Eo(), Oo(39, "span"), ma(40), Eo(), Eo(), Eo(), Oo(41, "div", 11), Oo(42, "div", 12), Oo(43, "h3"), ma(44, "Invites"), Eo(), Oo(45, "p"), ma(46, "Number of invite link clicks."), Eo(), Oo(47, "span"), ma(48), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(49, "hr"), So(50, LP, 46, 14, "section", 13), Eo()), 2 & t) {
           const t = Wo();
           Gr(3), _a("", t.user.username, " Analytics"), Gr(11), ga(Ul(15, 7, t.log.analytics.lastUpdatedAt)), Gr(10), _a("", t.last(t.log.analytics.impressions) || "N/A", " Impressions"), Gr(8), _a("", t.last(t.log.analytics.views) || "N/A", " Views"), Gr(8), _a("", t.last(t.log.analytics.ctr) || "N/A", "%"), Gr(8), _a("", t.last(t.log.analytics.invites) || "N/A", " Invites"), Gr(2), Do("ngIf", t.log)
         }
@@ -56214,7 +56214,7 @@
                 description: "",
                 titlePrefix: this.user.tag,
                 titleSuffix: "Widget",
-                url: "dashboard/bots/" + this.id
+                url: "dashboard/servers/" + this.id
               }), this.hookWSEvents(), yield this.service.connect()
             })
           }
@@ -56256,7 +56256,7 @@
           decls: 3,
           vars: 4,
           consts: [
-            [3, "bot", "loaded", "user"],
+            [3, "server", "loaded", "user"],
             ["sidebar", ""],
             ["class", "container", 4, "ngIf"],
             [1, "container"],
@@ -56292,9 +56292,9 @@
             ["chart4", ""]
           ],
           template: function (t, e) {
-            if (1 & t && (Oo(0, "bot-sidebar", 0, 1), So(2, DP, 51, 9, "div", 2), Eo()), 2 & t) {
+            if (1 & t && (Oo(0, "server-sidebar", 0, 1), So(2, DP, 51, 9, "div", 2), Eo()), 2 & t) {
               const t = Co(1);
-              Do("bot", e.bot)("loaded", e.stats && e.bot && e.user && e.log)("user", e.user), Gr(2), Do("ngIf", t.loaded)
+              Do("server", e.bot)("loaded", e.stats && e.bot && e.user && e.log)("user", e.user), Gr(2), Do("ngIf", t.loaded)
             }
           },
           directives: [cO, Zu, SC, jT, l_, ed, nd, id, bP],
@@ -56316,9 +56316,9 @@
       };
 
       function AP(t, e) {
-        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "Packs"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), Oo(9, "header", 7), Oo(10, "div", 8), Oo(11, "div", 9), Oo(12, "span"), Ao(13, "i", 10), Oo(14, "div", 11), Oo(15, "h1"), ma(16), Eo(), Oo(17, "p", 12), ma(18), Eo(), Eo(), Eo(), Oo(19, "span"), Oo(20, "div"), Ao(21, "i", 13), ma(22), Wl(23, "number"), Eo(), Oo(24, "div"), Ao(25, "i", 14), ma(26), Wl(27, "number"), Eo(), Ao(28, "div", 15), Ao(29, "member-username", 16), Oo(30, "div", 17), Oo(31, "button", 18), ma(32, "Vote"), Eo(), So(33, OP, 3, 0, "span", 19), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(34, "waves", 20), Oo(35, "div", 21), Ao(36, "bots", 22), Eo(), Eo()), 2 & t) {
+        if (1 & t && (Oo(0, "div"), Oo(1, "nav", 2), Oo(2, "ol", 3), Oo(3, "li", 4), Oo(4, "a", 5), ma(5, "Packs"), Eo(), Eo(), Oo(6, "li", 4), Oo(7, "a", 6), ma(8), Eo(), Eo(), Eo(), Eo(), Oo(9, "header", 7), Oo(10, "div", 8), Oo(11, "div", 9), Oo(12, "span"), Ao(13, "i", 10), Oo(14, "div", 11), Oo(15, "h1"), ma(16), Eo(), Oo(17, "p", 12), ma(18), Eo(), Eo(), Eo(), Oo(19, "span"), Oo(20, "div"), Ao(21, "i", 13), ma(22), Wl(23, "number"), Eo(), Oo(24, "div"), Ao(25, "i", 14), ma(26), Wl(27, "number"), Eo(), Ao(28, "div", 15), Ao(29, "member-username", 16), Oo(30, "div", 17), Oo(31, "button", 18), ma(32, "Vote"), Eo(), So(33, OP, 3, 0, "span", 19), Eo(), Eo(), Eo(), Eo(), Eo(), Ao(34, "waves", 20), Oo(35, "div", 21), Ao(36, "servers", 22), Eo(), Eo()), 2 & t) {
           const t = Wo();
-          Gr(7), Do("routerLink", Bl(15, EP, t.pack._id)), Gr(1), ga(t.pack.name), Gr(8), ga(t.pack.name), Gr(2), ga(t.pack.description), Gr(4), _a(" ", Ul(23, 11, t.pack.bots.length), " Bots"), Gr(4), _a(" ", Ul(27, 13, t.pack.votes), " Votes"), Gr(3), Do("user", t.ownerUser), Gr(2), Do("routerLink", "/packs/" + t.packId + "/vote"), Gr(2), Do("ngIf", (null == t.userService.user ? null : t.userService.user.id) === t.ownerUser.id), Gr(1), Do("inverted", !0), Gr(2), Do("pack", t.pack)
+          Gr(7), Do("routerLink", Bl(15, EP, t.pack._id)), Gr(1), ga(t.pack.name), Gr(8), ga(t.pack.name), Gr(2), ga(t.pack.description), Gr(4), _a(" ", Ul(23, 11, t.pack.bots.length), " servers"), Gr(4), _a(" ", Ul(27, 13, t.pack.votes), " Votes"), Gr(3), Do("user", t.ownerUser), Gr(2), Do("routerLink", "/packs/" + t.packId + "/vote"), Gr(2), Do("ngIf", (null == t.userService.user ? null : t.userService.user.id) === t.ownerUser.id), Gr(1), Do("inverted", !0), Gr(2), Do("pack", t.pack)
         }
       }
 
@@ -56389,14 +56389,14 @@
                 if (yield this.packs.init(), yield this.bots.init(), this.pack = yield this.packs.fetch(this.packId), !this.pack) return this.router.navigate(["/"]);
                 this.ownerUser = yield this.userService.getUser(null !== (t = this.pack.owner._id) && void 0 !== t ? t : this.pack.owner), this.seo.setTags({
                   titlePrefix: this.pack.name,
-                  description: `View the ${this.pack.name}' Bot Pack with ${this.pack.votes.length} votes, and ${this.pack.bots.length} bots.`,
+                  description: `View the ${this.pack.name}' Server Pack with ${this.pack.votes.length} votes, and ${this.pack.bots.length} servers.`,
                   url: "packs/" + this.packId
                 }), document.querySelector(".navbar").setAttribute("style", "\n        background-color: var(--background-secondary) !important;\n        margin-bottom: -5px;\n      ")
               })
             }
             delete() {
               return _u(this, void 0, void 0, function* () {
-                "DELETE" === prompt("Type 'DELETE' to confirm bot page deletion.") && (yield this.packs.delete(this.pack._id), yield this.packs.refreshPacks(), this.router.navigate(["/"]))
+                "DELETE" === prompt("Type 'DELETE' to confirm server page deletion.") && (yield this.packs.delete(this.pack._id), yield this.packs.refreshPacks(), this.router.navigate(["/"]))
               })
             }
           }
@@ -56431,7 +56431,7 @@
               ["mat-button", "", 1, "mr-2", "btn-gradient", 3, "routerLink"],
               ["class", "controls", 4, "ngIf"],
               [3, "inverted"],
-              ["id", "bots", 1, "container"],
+              ["id", "servers", 1, "container"],
               [3, "pack"],
               [1, "controls"],
               ["color", "danger", "mat-button", "", 3, "click"]
@@ -56441,7 +56441,7 @@
             },
             directives: [ES, Zu, yD, UM, UT, bS, WM, zC, _D, pD],
             pipes: [dd],
-            styles: ["header[_ngcontent-%COMP%]{background-color:var(--background-secondary);margin-top:-65px;padding-top:125px}h1[_ngcontent-%COMP%]{text-overflow:clip}img[_ngcontent-%COMP%]{float:left;margin-right:15px;border-radius:10px;width:96px}#bots[_ngcontent-%COMP%]{min-height:480px}a[_ngcontent-%COMP%]{color:var(--heading)}.huge-icon[_ngcontent-%COMP%]{font-size:96px}"]
+            styles: ["header[_ngcontent-%COMP%]{background-color:var(--background-secondary);margin-top:-65px;padding-top:125px}h1[_ngcontent-%COMP%]{text-overflow:clip}img[_ngcontent-%COMP%]{float:left;margin-right:15px;border-radius:10px;width:96px}#servers[_ngcontent-%COMP%]{min-height:480px}a[_ngcontent-%COMP%]{color:var(--heading)}.huge-icon[_ngcontent-%COMP%]{font-size:96px}"]
           }), t
         })()
       }, {
@@ -56508,13 +56508,13 @@
         path: "packs",
         redirectTo: "/"
       }, {
-        path: "bots/:id",
+        path: "servers/:id",
         component: CE
       }, {
-        path: "bots/:id/vote",
+        path: "servers/:id/vote",
         component: UE
       }, {
-        path: "bots",
+        path: "servers",
         redirectTo: "/"
       }, {
         path: "users/:id",
@@ -56527,31 +56527,31 @@
         component: ZT,
         canActivate: [XT]
       }, {
-        path: "dashboard/bots/new",
+        path: "dashboard/servers/new",
         component: bE,
         canActivate: [XT]
       }, {
-        path: "dashboard/bots/:id",
+        path: "dashboard/servers/:id",
         component: HE,
         canActivate: [vE]
       }, {
-        path: "dashboard/bots/:id/analytics",
+        path: "dashboard/servers/:id/analytics",
         component: TP,
         canActivate: [vE]
       }, {
-        path: "dashboard/bots/:id/api",
+        path: "dashboard/servers/:id/api",
         component: lP,
         canActivate: [vE]
       }, {
-        path: "dashboard/bots/:id/edit",
+        path: "dashboard/servers/:id/edit",
         component: $E,
         canActivate: [vE]
       }, {
-        path: "dashboard/bots/:id/log",
+        path: "dashboard/servers/:id/log",
         component: WY,
         canActivate: [vE]
       }, {
-        path: "dashboard/bots/:id/widget",
+        path: "dashboard/servers/:id/widget",
         component: uP,
         canActivate: [vE]
       }, {
