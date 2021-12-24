@@ -13,7 +13,8 @@ export type UserRole = '' | 'reviewer' | 'admin';
 export enum DevBadge {
     BetaTester = 'BETA_TESTER',
     OG = 'OG',
-    Viewer = 'VIEWER'
+    Viewer = 'VIEWER',
+    Verified = 'Verified'
 }
 
 export const SavedUser = model<UserDocument>('user', new Schema({
