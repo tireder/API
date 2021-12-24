@@ -18,7 +18,7 @@ export default class DeleteCommand implements Command {
         const botId = getIDFromMention(botUserMention);
         const exists = await SavedBot.exists({ _id: botId });
         if (!exists)
-            throw new TypeError('Bot not found.');
+            throw new TypeError('Server not found.');
         
         const savedBot = await this.bots.get(botId);        
         await savedBot.remove();
