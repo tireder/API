@@ -13,7 +13,7 @@ export async function handleFeedback(botId: string, feedback: Feedback) {
   try {
     await bot.users.cache
       .get(savedBot.ownerId)
-      ?.send(`Your bot, <@!${savedBot.id}>, was ${feedback.approved ? 'approved' : 'not approved'} by <@!${feedback.by}> - \`${feedback.message}\``);
+      ?.send(`Your Server, <@!${savedBot.id}>, was ${feedback.approved ? 'approved' : 'not approved'} by <@!${feedback.by}> - \`${feedback.message}\``);
   } catch {}
 
   (feedback.approved)
